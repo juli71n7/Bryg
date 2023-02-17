@@ -19,3 +19,12 @@
 * {
   margin: 0;
 }
+
+.some_icon {
+  width: 75px;
+  padding: var(--xs-spacing);
+}
+
+footer {
+  margin-inline: auto;
+}
