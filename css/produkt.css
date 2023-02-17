@@ -24,6 +24,9 @@ h3 {
 li {
   list-style: none;
 }
+.logo {
+  width: 10%;
+}
 .link {
   text-decoration: none;
   color: black;
