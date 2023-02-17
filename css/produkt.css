@@ -2,9 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
 }
 
 .grid1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.break {
+  font-weight: 200;
+}
+
+li {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  border: solid black 1px;
+  padding: 0.5em;
+  font-weight: bold;
 }
