@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
 }
 
 h2 {
@@ -11,32 +12,75 @@ h2 {
 h3 {
   font-weight: bold;
 }
-
+.pris_overskrift {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
 .grid1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: -3%;
 }
 .produktbillede {
   width: 85%;
-  margin-top: 0%;
-  margin-left: 10%;
-  z-index: -1;
-}
-.break {
-  font-weight: 200;
+  margin-left: 7rem;
+  margin-top: -1rem;
 }
 
-li {
+ul {
   list-style: none;
+  display: flex;
 }
 .logo {
-  width: 7%;
-  margin-bottom: 2%;
+  width: 50%;
 }
-.link {
+.link a {
   text-decoration: none;
   color: black;
-  border: solid black 1px;
+  border: solid black 2.5px;
   padding: 0.5em;
   font-weight: bold;
+}
+.link {
+  margin-top: 2.75%;
+}
+.col2 {
+  margin-top: 7rem;
+  margin-left: 2rem;
+}
+button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: black;
+  border: solid black 1px;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 6rem 0.5rem 6rem;
+  text-align: center;
+  font-size: large;
+}
+
+#quantity {
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  border: solid black 1px;
+  font-weight: bold;
+}
+.vaelg {
+  margin-bottom: 1rem;
+}
+.vaelg input {
+  margin-top: 0.5rem;
+}
+#seks_flaske {
+  margin-left: 1rem;
+}
+#tolv_flaske {
+  margin-left: 1rem;
+}
+#fireogtyve_flaske {
+  margin-left: 1rem;
+}
+.beskrivelse {
+  color: #918178;
 }

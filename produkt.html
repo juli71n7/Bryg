@@ -13,12 +13,14 @@
   <body>
     <header>
       <nav class="nav">
-        <li>
-          <img src="img/Logo_fed.svg" alt="logo" class="logo" />
-        </li>
-        <li>
-          <a class="link" href="kategori.html">VARIANTER</a>
-        </li>
+        <ul>
+          <li>
+            <img src="img/Logo_fed.svg" alt="logo" class="logo" />
+          </li>
+          <li class="link">
+            <a href="kategori.html">VARIANTER</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -26,27 +28,27 @@
         <div class="col">
           <img src="img/blaaIPA.webp" alt="ølle" class="produktbillede" />
         </div>
-        <div class="col">
-          <h2>CLOUDY IPA - BRYG</h2>
-          <h3>40kr</h3>
-          <form>
+        <div class="col2">
+          <h2><span class="produktnavn">CLOUDY</span> <span class="kategori">IPA</span> - BRYG</h2>
+          <h3 class="pris_overskrift">DKK <span class="pris">40</span></h3>
+          <form class="vaelg">
             <h3>Vælg antal flasker:</h3>
-            <input type="radio" id="1flaske" name="antal" value="1flaske" />
-            <label for="1flaske">+1</label>
-            <input type="radio" id="6flaske" name="antal" value="6flaske" />
-            <label for="6flaske">+6</label>
-            <input type="radio" id="12flaske" name="antal" value="12flaske" />
-            <label for="12flaske">+12</label>
-            <input type="radio" id="24flaske" name="antal" value="24flaske" />
-            <label for="24flaske">+24</label>
+            <input type="radio" id="en_flaske" name="antal" value="en_flaske" />
+            <label for="en_flaske">+1</label>
+            <input type="radio" id="seks_flaske" name="antal" value="seks_flaske" />
+            <label for="seks_flaske">+6</label>
+            <input type="radio" id="tolv_flaske" name="antal" value="tolv_flaske" />
+            <label for="tolv_flaske">+12</label>
+            <input type="radio" id="fireogtyve_flaske" name="antal" value="fireogtyve_flaske" />
+            <label for="fireogtyve_flaske">+24</label>
           </form>
-          <form>
+          <form class="antal">
             <label for="quantity">Antal:</label>
             <input onKeyDown="return false" type="number" id="quantity" name="quantity" min="1" max="5" />
           </form>
           <button>Tilføj til kurv</button>
-          <h2>CLOUDY <span class="break">|</span> IPA / 4.8% / 44 cl</h2>
-          <p>Blå, blød & bouncy IPA er en bla bla bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laboriosam, nihil odit expedita harum quia eaque dolores distinctio! At totam fugiat officiis eius incidunt. Vel ducimus possimus itaque repellat temporibus!</p>
+          <h2><span class="produktnavn">CLOUDY</span> <span class="kategori">IPA</span> / <span class="procent">4.8%</span> / 44 cl</h2>
+          <p class="beskrivelse">Blå, blød & bouncy IPA er en bla bla bla</p>
         </div>
       </div>
     </main>
