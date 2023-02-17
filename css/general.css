@@ -18,6 +18,19 @@
 
 * {
   margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  line-height: 1.5;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
   padding: 0;
   box-sizing: border-box;
 }
