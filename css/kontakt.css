@@ -1,0 +1,10 @@
+.kontaktForm {
+  display: grid;
+  gap: 20px;
+  margin-block: var(--l-spacing);
+}
+
+button {
+  max-width: 100px;
+  padding: var(--xs-spacing);
+}
