@@ -1,0 +1,21 @@
+:root {
+  --xs-skrift: 1rem;
+  --s-skrift: 1.1rem;
+  --m-skrift: 1.3rem;
+  --l-skrift: 1.5rem;
+  --xl-skrift: 2rem;
+
+  margin: 20px;
+
+  --xxs-spacing: 0.4rem;
+  --xs-spacing: 1rem;
+  --s-spacing: 1.5rem;
+  --m-spacing: 2rem;
+  --l-spacing: 3rem;
+  --xl-spacing: 4rem;
+  --xxl-spacing: 8rem;
+}
+
+* {
+  margin: 0;
+}
