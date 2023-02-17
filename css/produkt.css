@@ -16,7 +16,12 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+.produktbillede {
+  width: 85%;
+  margin-top: 0%;
+  margin-left: 10%;
+  z-index: -1;
+}
 .break {
   font-weight: 200;
 }
@@ -25,7 +30,8 @@ li {
   list-style: none;
 }
 .logo {
-  width: 10%;
+  width: 7%;
+  margin-bottom: 2%;
 }
 .link {
   text-decoration: none;
