@@ -109,3 +109,7 @@ button:hover {
 .beskrivelse {
   color: #918178;
 }
+.footerikon {
+  display: block;
+  width: 15%;
+}
