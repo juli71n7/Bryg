@@ -45,11 +45,15 @@ ul {
   display: flex;
 }
 .logo {
-  width: 50%;
+  width: 40%;
 }
 .logo:hover {
   transform: scale(1.05);
   opacity: 50%;
+}
+
+.ikon {
+  width: 50%;
 }
 .link a {
   text-decoration: none;
