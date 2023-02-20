@@ -59,9 +59,14 @@ ul {
 .beskrivelse {
   color: #918178;
 }
+.vaelg {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
 /* -------------KNAPPER------------- */
+
 button {
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
   background-color: black;
   border: solid black 1px;
@@ -71,29 +76,50 @@ button {
   text-align: center;
 }
 button:hover {
-  transform: scale(1.1);
-  opacity: 50%;
+  background-color: white;
+  border: solid black 1px;
+  color: black;
 }
 #quantity {
   padding: 0.25rem;
-  margin-left: 0.5rem;
   border: solid black 1px;
   font-weight: bold;
 }
-.vaelg {
-  margin-bottom: 1rem;
+.container {
+  display: flex;
+  gap: 1.35rem;
+  margin-bottom: 1.5rem;
 }
-.vaelg input {
-  margin-top: 0.5rem;
+.input-radio[type="radio"] {
+  display: none;
 }
-#seks_flaske {
-  margin-left: 1rem;
+.label-radio {
+  position: relative;
+  color: black;
+  border: 1px solid black;
+  padding: 6px 9px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
 }
-#tolv_flaske {
-  margin-left: 1rem;
+
+.label-radio:before {
+  content: "";
+  height: 12px;
+  width: 12px;
+  border: 1.5px solid black;
+  border-radius: 50%;
+  margin-right: 7px;
 }
-#fireogtyve_flaske {
-  margin-left: 1rem;
+.input-radio[type="radio"]:checked + label {
+  background-color: black;
+  color: white;
+}
+.input-radio[type="radio"]:checked + label:before {
+  height: 6px;
+  width: 6px;
+  border: 5px solid white;
+  background-color: black;
 }
 /* -------------FOOTER------------- */
 .gridfooter {
