@@ -84,11 +84,11 @@ nav {
 animation-duration: 1s;
 animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-justify-items: center;
-
-margin-left: 5rem;
-margin-right: 5rem;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 400px));
+    gap: 2rem;
+justify-content: center;
+margin-left: 4rem;
+margin-right: 4rem;
 
 }
 
