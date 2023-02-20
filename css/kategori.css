@@ -1,0 +1,178 @@
+
+
+h1{
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+main{
+    margin:0;
+overflow: hidden;
+    margin-bottom: 2rem;
+
+}
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+nav {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  .logo {
+    width: 40%;
+  }
+  
+  .ikon {
+    width: 50%;
+  }
+  
+.footerikon {
+    display: block;
+    width: 15%;
+  }
+
+  .imgf {
+    display: block;
+    width: 20%;
+  }
+
+
+  .right {
+    display: flex;
+  }
+  
+  
+.h3footer {
+    font-family: "Roboto", sans-serif;
+    margin-top: 1.5rem;
+    color: rgb(132, 132, 132);
+    margin-left: 10px;
+  }
+  
+  .pfooter {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: rgb(132, 132, 132);
+    margin-left: 10px;
+    line-height: 1.7rem;
+  }
+
+  .flexikon {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .imgfooter {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .gridfooter {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    border-top: rgb(159, 159, 159) solid 1px;
+    margin-bottom: 3rem;
+  }
+
+
+
+  p{
+    font-family: "Roboto", sans-serif;
+max-width: 400px;
+}
+
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #948077;
+  }
+
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: auto;
+}
+
+.button{
+    padding: 0.5rem 1.5rem;
+    margin-right: auto;
+    border: #948077 solid 0.1rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 1rem;
+cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.button:hover{
+    background-color: #948077;
+    color: white;
+    transition: 0.2s ease;
+}
+
+
+
+  .variant{
+height: 600px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 2rem;
+margin-top: 3rem;
+
+  }
+
+  .left{
+    overflow: hidden;
+    margin: auto;
+    justify-content: center;
+
+    
+}
+
+  .left img{
+    margin: auto;
+  }
+
+  .rightk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+margin-left: auto;
+margin-right: auto;
+    margin-top: 2rem;
+    
+  }
+
+  .order{
+    order: -1;
+  }

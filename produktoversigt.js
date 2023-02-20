@@ -1,4 +1,7 @@
-const url = "https://olliste-f0b6.restdb.io/rest/olliste"
+
+const urlParams = new URLSearchParams(window.location.search);
+const cat = urlParams.get("cat")
+const url = `https://olliste-f0b6.restdb.io/rest/olliste?limit=20&kategori=${cat}`;
 
 
 const options = {
