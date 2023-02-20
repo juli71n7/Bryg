@@ -43,17 +43,21 @@ ul {
 /* -------------PRODUKTBILLEDE------------- */
 .produktbillede {
   width: 85%;
-  margin-left: 7rem;
+  margin-left: 4rem;
   margin-top: -1rem;
 }
 /* -------------INFORMATION------------- */
 .col2 {
   margin-top: 7rem;
-  margin-left: 2rem;
   margin-right: 10rem;
 }
+.bryg {
+  color: #918178;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
 .pris_overskrift {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-weight: 400;
 }
 .beskrivelse {
@@ -68,8 +72,8 @@ ul {
 button {
   margin-top: 2rem;
   margin-bottom: 3rem;
-  background-color: black;
-  border: solid black 1px;
+  background-color: #918178;
+  border: solid #918178;
   color: white;
   font-weight: bold;
   padding: 0.75rem 9rem 0.75rem 9rem;
@@ -77,26 +81,29 @@ button {
 }
 button:hover {
   background-color: white;
-  border: solid black 1px;
-  color: black;
+  border: solid #918178 3px;
+  color: #918178;
 }
 #quantity {
   padding: 0.25rem;
   border: solid black 1px;
-  font-weight: bold;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1em;
 }
 .container {
   display: flex;
-  gap: 1.35rem;
+  gap: 1.25rem;
   margin-bottom: 1.5rem;
 }
+
 .input-radio[type="radio"] {
   display: none;
 }
 .label-radio {
   position: relative;
-  color: black;
-  border: 1px solid black;
+  color: #6d6059;
+  border: 1px solid #918178;
   padding: 6px 9px;
   display: flex;
   align-items: center;
@@ -107,19 +114,20 @@ button:hover {
   content: "";
   height: 12px;
   width: 12px;
-  border: 1.5px solid black;
+  border: 1.5px solid #918178;
   border-radius: 50%;
   margin-right: 7px;
 }
 .input-radio[type="radio"]:checked + label {
-  background-color: black;
+  background-color: #918178;
+  border: 1px solid #918178;
   color: white;
 }
 .input-radio[type="radio"]:checked + label:before {
   height: 6px;
   width: 6px;
   border: 5px solid white;
-  background-color: black;
+  background-color: #918178;
 }
 /* -------------FOOTER------------- */
 .gridfooter {
@@ -153,6 +161,10 @@ button:hover {
 }
 
 @media (max-width: 800px) {
+  .grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   .gridfooter {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
