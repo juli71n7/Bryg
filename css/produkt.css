@@ -32,11 +32,6 @@ ul {
 .logo {
   width: 40%;
 }
-.logo:hover {
-  transform: scale(1.05);
-  opacity: 50%;
-}
-
 .ikon {
   width: 50%;
 }
@@ -159,7 +154,7 @@ button:hover {
   margin-top: 10px;
   margin-left: 10px;
 }
-
+/* -------------MEDIA QUERIES------------- */
 @media (max-width: 800px) {
   .grid1-1 {
     display: grid;
