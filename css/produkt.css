@@ -113,3 +113,17 @@ button:hover {
   display: block;
   width: 15%;
 }
+.h3footer {
+  font-family: "Roboto", sans-serif;
+  margin-top: 1.5rem;
+  color: rgb(132, 132, 132);
+  margin-left: 10px;
+}
+
+.pfooter {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(132, 132, 132);
+  margin-left: 10px;
+  line-height: 1.7rem;
+}
