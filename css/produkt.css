@@ -141,3 +141,10 @@ button:hover {
   border-top: rgb(159, 159, 159) solid 1px;
   margin-bottom: 3rem;
 }
+
+@media (max-width: 800px) {
+  .gridfooter {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
