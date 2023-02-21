@@ -40,6 +40,21 @@ svg {
   padding: var(--xs-spacing);
 }
 
+.left {
+  display: flex;
+  gap: var(--xl-spacing);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
 footer {
   margin-inline: auto;
 }
