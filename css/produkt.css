@@ -46,6 +46,9 @@ ul {
   text-decoration: none;
   z-index: 2;
 }
+.breadcrumbs a:hover {
+  color: #918178bb;
+}
 /* -------------PRODUKTBILLEDE------------- */
 .produktbillede img {
   width: 85%;
