@@ -58,6 +58,9 @@ ul {
 .left {
   display: flex;
   gap: var(--xl-spacing);
+  align-items: center
+
+
 }
 
 li {
