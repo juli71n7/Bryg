@@ -7,6 +7,9 @@ const options = {
     "x-apikey": "63f3520a478852088da684ab",
   },
 };
+
+document.querySelector("h1").textContent = cat;
+
 async function hentData() {
   const respons = await fetch(url, options);
   const json = await respons.json();
@@ -18,6 +21,7 @@ const temp = document.querySelector(".productTemplate").content;
 
 function vis(json) {
   console.log(json);
+
   json.forEach((object) => {
     if (object.kategori === cat) {
       const klon = temp.cloneNode(true);
