@@ -29,6 +29,10 @@ h1 {
   max-width: 800px;
 }
 
+.kontaktLabel {
+  margin-bottom: var(--xs-spacing);
+}
+
 .gridfooter {
   border-top: rgb(159, 159, 159) solid 1px;
   margin-bottom: 3rem;
@@ -85,7 +89,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin-bottom: var(--xl-spacing);
+    margin-bottom: var(--s-spacing);
   }
 
   .kontaktForm :nth-child(4) {
@@ -125,19 +129,17 @@ h1 {
 }
 
 button {
+  display: flex;
   max-width: 100px;
   padding: var(--xs-spacing);
-  margin-bottom: var(--s-spacing);
+  margin-bottom: var(--m-spacing);
+  margin-inline: auto;
 }
 
 nav {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
-}
-
-li {
-  list-style-type: none;
 }
 
 ul {
