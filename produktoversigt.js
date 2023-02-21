@@ -7,6 +7,9 @@ const options = {
     "x-apikey": "63f3520a478852088da684ab",
   },
 };
+
+document.querySelector("h1").textContent = cat;
+
 async function hentData() {
   const respons = await fetch(url, options);
   const json = await respons.json();
@@ -18,6 +21,7 @@ const temp = document.querySelector(".productTemplate").content;
 
 function vis(json) {
   console.log(json);
+
   json.forEach((object) => {
     const klon = temp.cloneNode(true);
 
@@ -28,7 +32,7 @@ function vis(json) {
     klon.querySelector(".category").textContent = object.kategori;
     klon.querySelector(".price p").textContent = object.pris + " DKK";
     klon.querySelector(".product_img img").src = imagePath;
-    klon.querySelector(".link").href = "produkt.html?product_id" + object._id;
+
     //append her//
     beholder.appendChild(klon);
   });
