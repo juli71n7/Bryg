@@ -1,3 +1,5 @@
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
 const url = "https://olliste-f0b6.restdb.io/rest/olliste";
 const options = {
   headers: {
