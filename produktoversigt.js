@@ -1,4 +1,7 @@
+// Her laver vi en konstant der søger efter et parameter i url'en //
 const urlParams = new URLSearchParams(window.location.search);
+
+// her laver vi en ny constant//
 const cat = urlParams.get("cat");
 const url = `https://olliste-f0b6.restdb.io/rest/olliste?kategori=${cat}`;
 
