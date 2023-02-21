@@ -155,6 +155,10 @@ button:hover {
   margin-top: 10px;
   margin-left: 10px;
 }
+.imgf {
+  display: block;
+  width: 20%;
+}
 /* -------------MEDIA QUERIES------------- */
 @media (max-width: 800px) {
   .grid1-1 {
