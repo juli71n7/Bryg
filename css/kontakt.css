@@ -16,7 +16,7 @@ main {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .underskrift {
@@ -32,8 +32,9 @@ h1 {
   margin-bottom: var(--xs-spacing);
 }
 
-#besked {
-  margin-bottom: var(--s-spacing);
+textarea {
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 740px) {
@@ -42,6 +43,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin-bottom: var(--s-spacing);
+    margin-inline: auto;
   }
 
   .kontaktForm :nth-child(4) {
@@ -56,18 +58,4 @@ button {
   padding: var(--xs-spacing);
   margin-bottom: var(--m-spacing);
   margin-inline: auto;
-}
-
-nav {
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-}
-
-ul {
-  padding: 0;
-}
-
-.right {
-  display: flex;
 }
