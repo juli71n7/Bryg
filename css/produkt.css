@@ -17,14 +17,13 @@ h2 {
 h3 {
   font-weight: bold;
 }
-/* -------------HEADER------------- */
-.right {
-  display: flex;
-  gap: 0.5rem;
-  margin-left: 80rem;
-  margin-top: -5rem;
+.breadcrumbs a {
+  color: #6d6059;
+  text-decoration: none;
 }
-
+.breadcrumbs a:hover {
+  color: #918178bb;
+}
 .breadcrumbs {
   display: flex;
   gap: 0.5rem;
@@ -33,13 +32,14 @@ h3 {
   font-size: small;
   z-index: 10;
 }
-.breadcrumbs a {
-  color: #6d6059;
-  text-decoration: none;
+/* -------------HEADER------------- */
+.right {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 80rem;
+  margin-top: -5rem;
 }
-.breadcrumbs a:hover {
-  color: #918178bb;
-}
+
 /* -------------PRODUKTBILLEDE------------- */
 .produktbillede {
   width: 85%;
