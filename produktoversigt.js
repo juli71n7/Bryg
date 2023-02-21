@@ -29,6 +29,7 @@ function vis(json) {
       klon.querySelector(".category").textContent = object.kategori;
       klon.querySelector(".price p").textContent = object.pris + " DKK";
       klon.querySelector(".product_img img").src = imagePath;
+      klon.querySelector(".link").href = "produkt.html?product_id=" + object._id;
 
       //append her//
       beholder.appendChild(klon);
