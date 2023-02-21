@@ -8,35 +8,88 @@
     <link rel="stylesheet" href="css/kontakt.css" />
     <title>Kontakt</title>
   </head>
-
+  <header> 
+      <nav>
+          <ul class="left">
+              <li> <a href="index.html"> <img class="logo" src="img/Logo_fed.svg" alt="bryglogo"></a></li>
+          </ul>
+          <ul class="right">
+              <li> <a href="index.html"> <img class="ikon" src="img/search.svg" alt="søg"></a></li>
+              <li> <a href="index.html"> <img class="ikon" src="img/shopping_bag.svg" alt="kurv"></a></li>
+          </ul>
+      </nav>
+  </header>
   <body>
     <main>
       <h1>Kontakt os</h1>
-      <p>Hvis du har spørgsmål om os eller vores produkter kan du stille dem i nedenstående formular</p>
+      <p class="underskrift">Hvis du har spørgsmål om os eller vores produkter kan du stille dem i nedenstående formular</p>
         <form class="kontaktForm">
           <div>
             <label for="full-name">Navn</label> <br />
-            <input id="full-name" name="fname" type="text" /> <br />
+            <input id="full-name" name="fname" type="text" size="35"/> <br />
           </div>
 
           <div>
             <label for="email">E-mail</label> <br />
-            <input id="email" name="email" type="email" /> <br />
+            <input id="email" name="email" type="email" size="35"/> <br />
           </div>
 
           <div>
             <label for="telefon">Telefonnummer</label> <br />
-            <input id="tel" name="tel" type="tel" /> <br />
+            <input id="tel" name="tel" type="tel" size="35"/> <br />
           </div>
 
           <div>
             <label for="text">Beskrivelse</label> <br>
-            <input id="besked" name="besked" type="text">
+            <input id="besked" name="besked" type="text"  row="5" size="50">
           </div>
 
-          <button>Indsend</button>
+          <button type="submit">Indsend</button>
         </form>
       </div>
     </main>
+    <footer>
+        <div class="gridfooter">
+            <div class="col">
+                <h3 class="h3footer">BRYG</h3>
+                <p class="pfooter">Danske øl med bryggerier landet over, som har fokus på unikke <br>
+                    og fængende smagsoplevelser. et eller andet omkring vi startede <br>
+                    i 1867, som gør os unikke og folk vælger os</p>
+
+                <h3 class="h3footer">KONTAKT</h3>
+                <p class="pfooter">E-mail: BRYG@gmail.com
+                </p>
+                <p class="pfooter">Tlf. +45 22 45 16 24</p>
+            </div>
+            <div class="col">
+                <h3 class="h3footer">BESØG OS</h3>
+                <p class="pfooter">Brygvej 23P,
+                </p>
+                <p class="pfooter">2300 København S</p>
+
+                <h3 class="h3footer">ÅBNINGSTIDER</h3>
+                <p class="pfooter">Man - Tors: 10-18</p>
+                <p class="pfooter">Fre: 11-16</p>
+                <p class="pfooter">Lør: 10-15</p>
+                <p class="pfooter">Søn: Lukket</p>
+            </div>
+            <div class="col">
+                <h3 class="h3footer">FØLG MED</h3>
+                <div class="flexikon">
+                    <img class="footerikon" src="img/instagram-icon.svg" alt="instagram logo">
+                    <img class="footerikon" src="img/linkedin-icon.svg" alt="linkedin logo">
+                </div>
+                <div class="imgfooter">
+                    <img class="imgf" src="img/footer1.webp" alt="billede med mand">
+                    <img class="imgf" src="img/footer2.webp" alt="billede med 2 øl">
+                </div>
+                <div class="imgfooter">
+                    <img class="imgf" src="img/footer3.webp" alt="billede med 1 øl">
+                    <img class="imgf" src="img/footer4.webp" alt="billede med kegs">
+                </div>
+            </div>
+
+        </div>
+    </footer>
   </body>
 </html>
