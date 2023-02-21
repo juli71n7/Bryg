@@ -100,11 +100,11 @@ a {
 /* FOOTER */
 footer {
   margin-inline: auto;
+  margin-bottom: var(--l-spacing);
 }
 
 .gridfooter {
   border-top: rgb(159, 159, 159) solid 1px;
-  margin-bottom: 3rem;
 }
 
 .imgfooter {
@@ -153,7 +153,6 @@ footer {
   .gridfooter {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    margin-bottom: 3rem;
   }
 
   .imgfooter {

@@ -10,13 +10,27 @@
 .grid1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 0.25rem;
 }
 h2 {
   font-weight: bold;
 }
 h3 {
   font-weight: bold;
+}
+.breadcrumbs a {
+  color: #6d6059;
+  text-decoration: none;
+}
+.breadcrumbs a:hover {
+  color: #918178bb;
+}
+.breadcrumbs {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 7rem;
+  color: #6d6059;
+  font-size: small;
+  z-index: 10;
 }
 /* -------------HEADER------------- */
 .right {
@@ -25,21 +39,13 @@ h3 {
   margin-left: 80rem;
   margin-top: -5rem;
 }
-ul {
-  list-style: none;
-  display: flex;
-}
-.logo {
-  width: 40%;
-}
-.ikon {
-  width: 50%;
-}
+
 /* -------------PRODUKTBILLEDE------------- */
 .produktbillede {
   width: 85%;
   margin-left: 4rem;
-  margin-top: -1rem;
+  margin-top: 0rem;
+  z-index: -1;
 }
 /* -------------INFORMATION------------- */
 .col2 {
@@ -125,36 +131,7 @@ button:hover {
   border: 5px solid white;
   background-color: #918178;
 }
-/* -------------FOOTER------------- */
-.gridfooter {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  border-top: rgb(159, 159, 159) solid 1px;
-  margin-bottom: 3rem;
-}
-.footerikon {
-  display: block;
-  width: 15%;
-}
-.h3footer {
-  font-family: "Roboto", sans-serif;
-  margin-top: 1.5rem;
-  color: rgb(132, 132, 132);
-  margin-left: 10px;
-}
-.pfooter {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: rgb(132, 132, 132);
-  margin-left: 10px;
-  line-height: 1.7rem;
-}
-.imgfooter {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
-}
+
 /* -------------MEDIA QUERIES------------- */
 @media (max-width: 800px) {
   .grid1-1 {
@@ -162,10 +139,7 @@ button:hover {
     grid-template-columns: 1fr;
     font-size: small;
   }
-  .gridfooter {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
+
   .right {
     margin-left: 20rem;
     margin-top: -5rem;
