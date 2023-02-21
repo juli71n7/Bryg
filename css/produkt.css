@@ -35,12 +35,25 @@ ul {
 .ikon {
   width: 50%;
 }
+.breadcrumbs {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 5rem;
+  color: #6d6059;
+}
+.breadcrumbs a {
+  color: #6d6059;
+  text-decoration: none;
+  z-index: 2;
+}
 /* -------------PRODUKTBILLEDE------------- */
-.produktbillede {
+.produktbillede img {
   width: 85%;
   margin-left: 4rem;
   margin-top: -1rem;
+  z-index: 1;
 }
+
 /* -------------INFORMATION------------- */
 .col2 {
   margin-top: 7rem;
