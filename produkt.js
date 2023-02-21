@@ -1,7 +1,7 @@
 const url = "https://olliste-f0b6.restdb.io/rest/olliste";
 const options = {
   headers: {
-    "x-apikey": "63f3520a478852088da684ab",
+    "x-apikey": "63ef7a7eaa860750000615a9",
   },
 };
 
@@ -16,13 +16,12 @@ const template = document.querySelector("template").content;
 
 function vis(json) {
   console.log(json);
-  json.forEach((person) => {
+  json.forEach((ol) => {
     const klon = template.cloneNode(true);
-    klon.querySelector(".produktbillede").src = "img/" + olliste.billede;
-    klon.querySelector(".produktnavn").textContent = olliste.olnavn;
-    klon.querySelector(".kategori").textContent = olliste.kategori;
-    klon.querySelector(".beskrivelse").textContent = olliste.beskrivelse;
-    klon.querySelector(".procent").textContent = olliste.procent;
+    klon.querySelector(".produktnavn").textContent = ol.olnavn;
+    klon.querySelector(".kategori").textContent = ol.kategori;
+    klon.querySelector(".beskrivelse").textContent = ol.beskrivelse;
+    klon.querySelector(".procent").textContent = ol.procent;
     main.appendChild(klon);
   });
 }
