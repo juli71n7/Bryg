@@ -10,7 +10,6 @@
 .grid1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 0.25rem;
 }
 h2 {
   font-weight: bold;
@@ -38,23 +37,24 @@ ul {
 .breadcrumbs {
   display: flex;
   gap: 0.5rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   color: #6d6059;
+  font-size: small;
+  z-index: 10;
 }
 .breadcrumbs a {
   color: #6d6059;
   text-decoration: none;
-  z-index: 2;
 }
 .breadcrumbs a:hover {
   color: #918178bb;
 }
 /* -------------PRODUKTBILLEDE------------- */
-.produktbillede img {
+.produktbillede {
   width: 85%;
   margin-left: 4rem;
-  margin-top: -1rem;
-  z-index: 1;
+  margin-top: 0rem;
+  z-index: -1;
 }
 
 /* -------------INFORMATION------------- */

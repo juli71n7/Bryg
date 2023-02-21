@@ -25,6 +25,7 @@ function vis(json) {
       document.querySelector(".kategori3").textContent = ol.kategori;
       document.querySelector(".beskrivelse").textContent = ol.beskrivelse;
       document.querySelector(".procent").textContent = ol.procent + "%";
+      document.querySelector(".link").href = "produktoversigt.html?cat=" + ol.kategori;
       main.appendChild(klon);
     }
   });
