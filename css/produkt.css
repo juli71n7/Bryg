@@ -159,6 +159,12 @@ button:hover {
   display: block;
   width: 20%;
 }
+.flexikon {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
 /* -------------MEDIA QUERIES------------- */
 @media (max-width: 800px) {
   .grid1-1 {
