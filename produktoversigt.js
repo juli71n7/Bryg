@@ -14,13 +14,11 @@ const options = {
   },
 };
 
-// Her ændre vi overskriften til vores konstant kategori fra url//
-document.querySelector("h1").textContent = cat;
-
 // Her er vores asynkrone funktion der danner en constant som venter på at hente data fra vores fil, med API key'en som faktor//
 
 async function hentData() {
   const respons = await fetch(url, options);
+
   // Her venter vi på at dataen er kommet ind og trækker så alt json ud af filen//
   const json = await respons.json();
 
@@ -46,6 +44,9 @@ function vis(json) {
       const klon = temp.cloneNode(true);
       //her gemmer  vi vores imagepath ved at skrive stien hen til hvor vores villeder ligger, og tilføjer filnavnet fra objectet til stien//
       const imagePath = "img/produktbilleder/" + object.billede;
+
+      // Her ændre vi overskriften til vores konstant kategori fra url//
+      document.querySelector("h1").textContent = object.kategori;
 
       // Her ændrer vi tekst indholdet i de forskelliger elementer i vores klon til tilsvarende data fra vores object//
       klon.querySelector(".name").textContent = object.olnavn;
