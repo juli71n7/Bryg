@@ -11,30 +11,34 @@
 
   <body>
     <header>
-      <nav>
-        <ul class="left">
-          <li>
-            <a class="nav-links" href="index.html"> <img class="logo" src="img/Logo_fed.svg" alt="bryglogo" /></a>
-          </li>
-          <li><a class="nav-links" href="produktoversigt.html">SHOP</a></li>
-          <li><a class="nav-links" href="kategori.html">TYPER ØL</a></li>
-          <li><a class="nav-links" href="kontakt.html">KONTAKT</a></li>
-        </ul>
-        <ul class="right">
-          <li>
+      <nav class="header_flex">
+        <a class="nav-links" href="index.html"> <img class="logo" src="img/Logo_fed.svg" alt="bryglogo" /></a>
+        <div class="toggle-menu-container">
+          <button class="toggle-btn">
+            <span class="hamburger"></span>
+          </button>
+          <div class="toggle-menu">
+            <a class="nav-links" href="kategori.html">SHOP</a>
+            <a class="nav-links" href="kontakt.html">KONTAKT</a>
             <a href="index.html"> <img class="ikon" src="img/search.svg" alt="søg" /></a>
-          </li>
-          <li>
             <a href="index.html"> <img class="ikon" src="img/shopping_bag.svg" alt="kurv" /></a>
-          </li>
-        </ul>
+          </div>
+        </div>
+        <div class="header_nav">
+          <a class="nav-links" href="kategori.html">SHOP</a>
+          <a class="nav-links" href="kontakt.html">KONTAKT</a>
+          <div class="header_icon">
+            <a href="index.html"> <img class="ikon" src="img/search.svg" alt="søg" /></a>
+            <a href="index.html"> <img class="ikon" src="img/shopping_bag.svg" alt="kurv" /></a>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
       <section class="variant">
         <div class="left1">
-          <img src="img/footer2.webp" alt="" />
+          <img src="img/ol1.webp" alt="" />
         </div>
 
         <div class="rightk">
@@ -52,8 +56,8 @@
       </section>
 
       <section class="variant">
-        <div class="left">
-          <img src="img/ol1.webp" alt="" />
+        <div class="left1">
+          <img src="img/ol3.webp" alt="" />
         </div>
 
         <div class="rightk order">
@@ -71,8 +75,8 @@
       </section>
 
       <section class="variant">
-        <div class="left">
-          <img src="img/ol3.webp" alt="" />
+        <div class="left1">
+          <img src="img/ol4.webp" alt="" />
         </div>
 
         <div class="rightk">
@@ -90,7 +94,7 @@
       </section>
 
       <section class="variant">
-        <div class="left">
+        <div class="left1">
           <img src="img/ol2.webp" alt="" />
         </div>
 
@@ -151,5 +155,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

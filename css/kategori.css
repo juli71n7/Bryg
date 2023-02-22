@@ -24,76 +24,10 @@ overflow: hidden;
     box-sizing: border-box;
   }
 
-nav {
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  li {
-    list-style: none;
-  }
-
-  .logo {
-    width: 40%;
-  }
-  
-  .ikon {
-    width: 50%;
-  }
-  
-.footerikon {
-    display: block;
-    width: 15%;
-  }
-
-  .imgf {
-    display: block;
-    width: 20%;
-  }
-
-
   .right {
     display: flex;
   }
   
-  
-.h3footer {
-    font-family: "Roboto", sans-serif;
-    margin-top: 1.5rem;
-    color: rgb(132, 132, 132);
-    margin-left: 10px;
-  }
-  
-  .pfooter {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: rgb(132, 132, 132);
-    margin-left: 10px;
-    line-height: 1.7rem;
-  }
-
-  .flexikon {
-    display: flex;
-    gap: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .imgfooter {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-  }
-  
-  .gridfooter {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    border-top: rgb(159, 159, 159) solid 1px;
-    margin-bottom: 3rem;
-  }
 
 
 
@@ -144,12 +78,13 @@ cursor: pointer;
 
   .variant{
 height: 600px;
-display: flex;
-margin-top: 3rem;
-justify-content: center;
-gap: 4rem;
+
+margin-top: 8rem;
+margin-bottom:5rem;
+
 
   }
+
 
   .left1{
     overflow: hidden;
@@ -161,6 +96,7 @@ display: flex;
 
   .left1 img{
     margin: auto;
+    
   }
 
   .rightk{
@@ -176,3 +112,15 @@ display: flex;
   .order{
     order: -1;
   }
+
+
+  @media (min-width: 800px) {
+  
+    .variant{
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+    
+    }
+
+}
