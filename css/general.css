@@ -139,6 +139,14 @@ a {
     width: 30px;
     padding: var(--xxs-spacing);
   }
+
+  .header_nav {
+    display: contents;
+  }
+
+  .header_nav {
+    display: none;
+  }
 }
 
 .hamburger {
@@ -201,12 +209,8 @@ a {
   transition: max-height 1000ms;
 }
 
-@media (max-width: 850px) {
-  .header_nav {
-    display: contents;
-  }
-
-  .header_nav {
+@media (min-width: 851px) {
+  .toggle-menu.shown {
     display: none;
   }
 }
