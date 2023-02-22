@@ -134,17 +134,20 @@ button:hover {
     grid-template-columns: 1fr;
     font-size: small;
   }
-
+  main {
+    margin-top: -8rem;
+  }
   .produktbillede {
     width: 100%;
     margin-left: 0%;
-    margin-top: 9%;
+    margin-top: -0.25rem;
     margin-bottom: 0%;
   }
   .col2 {
-    margin-top: 0%;
+    margin-top: -2rem;
     margin-bottom: 20%;
   }
+
   .container {
     gap: 0.5rem;
   }
