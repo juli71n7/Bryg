@@ -40,6 +40,7 @@ function vis(json) {
   // Her siger vi at for hvert object der er i vores fil skal den køre denne anonyme funktion//
   json.forEach((object) => {
     // Her siger vi at hvis object kategori = vores kategori fra url parametret, skal den gøre følgende//
+
     if (object.kategori === cat) {
       // Her laver vi en konstant der tager vores Template og cloner det//
       const klon = temp.cloneNode(true);
