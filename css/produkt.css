@@ -20,24 +20,19 @@ h3 {
 .breadcrumbs a {
   color: #6d6059;
   text-decoration: none;
+  font-size: 14px;
 }
 .breadcrumbs a:hover {
   color: #918178bb;
+  font-style: italic;
 }
 .breadcrumbs {
   display: flex;
   gap: 0.5rem;
   margin-top: 7rem;
   color: #6d6059;
-  font-size: small;
+  font-size: 14px;
   z-index: 10;
-}
-/* -------------HEADER------------- */
-.right {
-  display: flex;
-  gap: 0.5rem;
-  margin-left: 80rem;
-  margin-top: -5rem;
 }
 
 /* -------------PRODUKTBILLEDE------------- */
@@ -140,10 +135,6 @@ button:hover {
     font-size: small;
   }
 
-  .right {
-    margin-left: 20rem;
-    margin-top: -5rem;
-  }
   .produktbillede {
     width: 100%;
     margin-left: 0%;
