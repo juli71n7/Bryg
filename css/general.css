@@ -55,14 +55,15 @@ p {
   max-width: 70ch;
 }
 
-.right {
-  display: flex;
-}
-
-.left {
+.header_nav {
   display: flex;
   gap: var(--xl-spacing);
   align-items: center;
+}
+
+.header_icon {
+  display: flex;
+  margin-left: var(--xl-spacing);
 }
 
 li {
@@ -97,6 +98,117 @@ a {
 .nav-links:hover::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+/* burgermenu */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .header_nav {
+    display: contents;
+  }
+
+  .header_nav {
+    display: none;
+  }
+
+  .header_nav.shown {
+    border-top: 3px solid var(--link-farve);
+    padding-top: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .some_icon {
+    width: 30px;
+    padding: var(--xxs-spacing);
+  }
+}
+
+.hamburger {
+  display: block;
+  position: relative;
+  background-color: black;
+}
+
+.hamburger,
+.hamburger::before {
+  width: 2em;
+  height: 4px;
+  background: black;
+
+  transition: transform 0.7s cubic-bezier(0, 0.01, 0.24, 1);
+}
+
+.hamburger::before {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.hamburger::before {
+  bottom: 8px;
+}
+
+.pressed .hamburger {
+  transform: rotate(-45deg);
+}
+
+.pressed .hamburger::before {
+  transform: rotate(90deg) translate(8px);
+}
+
+.toggle-menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.toggle-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 1000ms;
+}
+
+.toggle-menu.shown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  overflow: hidden;
+  max-height: 225px;
+  transition: max-height 1000ms;
+}
+
+@media (max-width: 850px) {
+  .header_nav {
+    display: contents;
+  }
+
+  .header_nav {
+    display: none;
+  }
 }
 
 /* FOOTER */
