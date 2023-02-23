@@ -229,6 +229,7 @@ footer {
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  width: 50%;
 }
 
 .flexikon {
@@ -239,6 +240,10 @@ footer {
 .footerikon {
   display: inline;
   width: 15%;
+}
+
+.footerikon:hover {
+  opacity: 90%;
 }
 
 .imgf {

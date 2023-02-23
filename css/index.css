@@ -84,10 +84,21 @@ li {
 
 .h2link {
   text-align: center;
+  display: block;
   font-family: "Roboto", sans-serif;
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
   color: #948077;
+  border: #948077 3px solid;
+  padding: 0.5rem;
+}
+
+.h2link:hover {
+  background-color: #948077;
+  color: white;
+  transition: 0.2s ease;
 }
 
 .h3link {
@@ -96,6 +107,7 @@ li {
   font-weight: 300;
   margin-bottom: 7rem;
   color: #948077;
+  margin-top: 1.5rem;
 }
 
 .shopknap {
