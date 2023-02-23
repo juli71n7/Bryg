@@ -196,6 +196,13 @@ li {
     width: 30%;
   }
 
+  .h2link {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
   .h3link {
     margin-bottom: 0;
   }
@@ -208,6 +215,6 @@ li {
 
   .gridfooter {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
