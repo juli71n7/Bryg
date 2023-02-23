@@ -111,6 +111,12 @@ li {
   padding-bottom: 0.5rem;
 }
 
+.shopknap:hover {
+  background-color: #948077;
+  color: white;
+  transition: 0.2s ease;
+}
+
 .h3footer {
   font-family: "Roboto", sans-serif;
   margin-top: 1.5rem;
